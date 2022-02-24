@@ -15,6 +15,10 @@ with source_data as (
     union all
     select null as id
 
+
+
+    
+
 )
 
 select *
