@@ -1,5 +1,3 @@
 
-witth customers as (
 
-    select * from {{ ref(`dbt-tutorial.jaffle_shop.customers`) }} ;
-),
+    select * from {{ ref(`dbt-tutorial.jaffle_shop.customers`) }} 
