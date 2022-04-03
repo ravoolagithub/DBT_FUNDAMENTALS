@@ -1,3 +1,9 @@
+{{ config (materialized='view') }}
 
 
-    select * from {{ ref(`dbt-tutorial.jaffle_shop.customers`) }} 
+with customers as ()
+    
+    select * from `dbt-tutorial.jaffle_shop.customers`
+),
+
+select * from cusotmers
